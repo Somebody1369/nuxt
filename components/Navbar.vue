@@ -19,7 +19,7 @@
               Users
             </nuxt-link>
           </li>
-          <!-- <li class="nav-item" v-if="!hasToken">
+          <li class="nav-item" v-if="!hasToken">
             <nuxt-link active-class="active" class="nav-link" to="/login">
               Login
             </nuxt-link>
@@ -28,7 +28,7 @@
             <a @click.prevent="logout" class="nav-link" href="#">
               Logout
             </a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </nav>
